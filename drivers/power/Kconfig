@@ -599,6 +599,10 @@ config QPNP_TYPEC
 	  adds support to report these type-C parameters via the power-supply
 	  framework.
 
+config USB_FUSB302
+        bool "Enable fusb422 USB Power Delivery"
+        default n
+
 config MSM_BCL_CTL
 	bool "BCL Framework driver"
 	help
